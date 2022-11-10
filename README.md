@@ -29,5 +29,5 @@ Click The Pink Deploy Button & Fill the vars Then Bot Runs on Heroku!
 
 
 ## 💘 Join our Support Group & Updates Channel
-<a href="https://t.me/Tiger_SupportChat"><img src="https://img.shields.io/badge/Support 💌-Telegram%20Group-pink.svg?logo=telegram"></a>
-<a href="https://t.me/Tiger_Updates"><img src="https://img.shields.io/badge/Updates 📣-Telegram%20Channel-pink.svg?logo=telegram"></a>
+<a href="https://t.me/Tiger_SupportChat"><img src="https://img.shields.io/badge/Support 💌-Telegram%20Group-ref.svg?logo=telegram"></a>
+<a href="https://t.me/Tiger_Updates"><img src="https://img.shields.io/badge/Updates 📣-Telegram%20Channel-red.svg?logo=telegram"></a>
