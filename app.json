@@ -1,15 +1,15 @@
 {
-      "name": "OrekiRobot",
-      "description": "an anime Themed Advanced Group Management bot with a lot of cool features.",
-      "logo": "https://te.legra.ph/file/9b4b80b011fd5de41a35b.jpg",
+      "name": "Nezuko Chan",
+      "description": "an anime Themed Advanced Group Management bot with a lot of cute features.",
+      "logo": "https://te.legra.ph/file/f8f0ce159ba8a6857394d.jpg",
       "keywords": [
          "telegram",
          "anime",
          "group",
          "manager",
-         "OrekiRobot"
+         "NezukoRobot"
       ],   
-   "repository": "https://github.com/Awesome-Gtash/OrekiRobot-2",
+   "repository": "https://github.com/Awesome-Gtash/NezukoRobot",
    "addons": [
       {
          "options": {
@@ -47,12 +47,12 @@
       "BOT_NAME": {
          "description": "Replace Your Bot Name.",
          "required": true,
-         "value": "Prince Oreki"
+         "value": "Nezuko Chan"
       },
       "BOT_USERNAME": {
          "description": "Your Bot UserName Without the @.",
          "required": true,
-         "value": "OrekiXProRobot"
+         "value": "NezukoProbot"
       },
       "ERROR_LOGS": {
          "description": "Error Logs (Channel or Group Choice Is Yours)",
@@ -99,16 +99,6 @@
          "required": true,
          "value": "-123456798"
       },
-      "MONGO_DB_URI": {
-         "description": "Required for database connections.",
-         "required": true,
-         "value": ""
-      },     
-      "CASH_API_KEY": {
-         "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
-         "required": true,
-         "value": "-xyz"
-      },     
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Saitama support then keep the current ID's here at they are and add yours.",
          "required": false,
