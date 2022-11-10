@@ -113,15 +113,15 @@ HELP_MSG = "Click The Button Below To Get Help Menu In Your PM Chat."
 START_MSG = "I'm Awake Already!\n<b>Nezuko Is Here Since:</b> <code>{}</code>"
 
 NEKO_STICKERS = (
-    "CAACAgQAAx0Cb_P9BQACFsdjUVxcW5w3HTH1k0dJWX172OVYSQACiggAAk3XEFKGGWr9yYBHjioE",
-    "CAACAgQAAx0Cb_P9BQACFtBjUV2Z2ptlwcaQIFz0aCvl2DLPzQACnwoAAnulCFJnpb4Q4L3qZSoE",
-    "CAACAgQAAx0Cb_P9BQACFttjUV3JS-Ma9JKJxYTIWKsidqogaAACnwcAAthvEFIVm9fgYJwwOCoE",
+    "CAACAgQAAx0Cb_P9BQACMmhjbUgObk3H8ekcpIVTOPCgPTPC8wADBwACC7NRUyDg5mMfwtmrKwQ",
+    "CAACAgUAAx0Cb_P9BQACMntjbUiVdooI2gg4rcg3A-68F6CdEAACBAADrwngJxarENKRJJWhKwQ",
+    "CAACAgQAAx0Cb_P9BQACMnRjbUhcrbtwjTXQqIF4aHomsxMCTQAC1gYAAm_MSFPkRuE7NoNieSsE",
     "CAACAgQAAx0Cb_P9BQACFuRjUV4ChyAN5IpndbVzhHqpga3M6gACGwgAAqDQEVJKBbDANRJGryoE",
-    "CAACAgQAAx0Cb_P9BQACFu1jUV4ldIfUKtqqINPTzD6NdhzOQQACvQ8AAiPoCFIw05rlLfpZpyoE",
+    "CAACAgEAAx0Cb_P9BQACMoljbUjybUCyE4rc2XuzB4_soOiJGwACJAIAAtgQeUWUkXWtsYMNiysE",
 )
 
 PM_START_TEXT = """
-────「 [{}](https://te.legra.ph/file/1dc7585b04ad07b93e2fc.jpg) 」────
+────「 [{}](https://te.legra.ph/file/3c79049762d85ee2f10ff.jpg) 」────
 *Hey Darling! Nezuko Is Here for You! {},*
 *I am an Anime Themed Advance Group Management Bot With Lot Of Cute Features.*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
@@ -164,7 +164,7 @@ buttons = [
 ]
 
 HELP_STRINGS = """
-────「 [Nezuko Chan](https://te.legra.ph/file/39b288a934734512d98e5.jpg) 」────
+────「 [Nezuko Chan](https://te.legra.ph/file/1dc7585b04ad07b93e2fc.jpg) 」────
 Hey, your *Nezuko* Is here!
 I Help Admins To Manage Their Groups!
 *Main* commands available: 
@@ -177,13 +177,10 @@ I Help Admins To Manage Their Groups!
 """
 
 GROUP_START_IMG = (
-    "https://te.legra.ph/file/5daed3fffea5dace6bdf6.mp4",
-    "https://te.legra.ph/file/b9cf9f626f8c5e44791d9.mp4",
-    "https://te.legra.ph/file/e6cdb76fc7e86d83b97d5.mp4",
-    "https://te.legra.ph/file/41d159193b7169d71b6a4.mp4",
-    "https://te.legra.ph/file/5ab83524f880813db5b9e.mp4",
-    "https://te.legra.ph/file/8d08411d24225176e28cd.mp4",
-    "https://te.legra.ph/file/7bb995073f9e1bab6ca88.mp4",
+    "https://te.legra.ph/file/021619212c35bff00d3ef.mp4",
+    "https://te.legra.ph/file/cbe4271fd407fc7e5d49b.mp4",
+    "https://te.legra.ph/file/967fa8ab1b3f00bd38b09.mp4",
+    "https://te.legra.ph/file/2505a136b73902fe4717c.mp4",
 )
 
 DONATE_STRING = """❂ I'm Free for Everyone ❂"""
@@ -317,7 +314,7 @@ def start(update: Update, context: CallbackContext):
     else:
         update.effective_message.reply_animation(
             random.choice(GROUP_START_IMG),
-            caption=f"<b>Hola, I'm awake already!\nPrince Oreki Is Here since</b>: <code>{uptime}</code>",
+            caption=f"<b>Hola, I'm awake already!\nNezuko Is Here since</b>: <code>{uptime}</code>",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
