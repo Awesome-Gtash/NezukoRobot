@@ -8,10 +8,10 @@
 
 <p align="center"><a href="https://t.me/NezukoProBot"><img src="https://te.legra.ph/file/bf426ef1ca910801efbd3.jpg" width="600"></a></p>
 
-<p align="center"><a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=pink&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a></p>
+<p align="center"><a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=blue&label=telethon&logo=python&logoColor=blue&style=for-the-badge" /></a></p>
 
 
-**Going to fork this repo? first Hit a star 💫 Then Fork🤞...**
+## Going to fork this repo? first Hit a star 💫 Then Fork🤞...
 
 
 
