@@ -3,7 +3,7 @@ BSD 2-Clause License
 
 Copyright (C) 2017-2019, Paul Larsen
 Copyright (C) 2022-2023, Awesome-Gtash, [ https://github.com/Awesome-Gtash ]
-Copyright (c) 2022-2023, White Tiger • Network, [ https://github.com/Awesome-Gtash/OrekiRobot ]
+Copyright (c) 2022-2023, White Tiger • Network, [ https://github.com/Awesome-Gtash/NezukoRobot ]
 
 All rights reserved.
 
@@ -109,8 +109,8 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-HELP_MSG = "Click The Button Below To Get Help Menu In Your Dm."
-START_MSG = "I'm Awake Already!\n<b>Haven't Slept Since:</b> <code>{}</code>"
+HELP_MSG = "Click The Button Below To Get Help Menu In Your PM Chat."
+START_MSG = "I'm Awake Already!\n<b>Nezuko Is Here Since:</b> <code>{}</code>"
 
 NEKO_STICKERS = (
     "CAACAgQAAx0Cb_P9BQACFsdjUVxcW5w3HTH1k0dJWX172OVYSQACiggAAk3XEFKGGWr9yYBHjioE",
@@ -121,9 +121,9 @@ NEKO_STICKERS = (
 )
 
 PM_START_TEXT = """
-────「 [{}](https://te.legra.ph/file/5aadfffa390146c1fb9a2.jpg) 」────
-*Hey Prince Is Here! {},*
-*I am an Anime Themed Advance Group Management Bot With Lot Of Cool Features.*
+────「 [{}](https://te.legra.ph/file/1dc7585b04ad07b93e2fc.jpg) 」────
+*Hey Darling! Nezuko Is Here for You! {},*
+*I am an Anime Themed Advance Group Management Bot With Lot Of Cute Features.*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 ➪ *Uptime:* `{}`
 ➪ *Python:* 3.10.8
@@ -142,7 +142,7 @@ buttons = [
     [
         InlineKeyboardButton(text="🎗️ Help", callback_data="help_back"),
         InlineKeyboardButton(
-            text="Source Code 🖤", url=f"https://github.com/Awesome-Gtash/OrekiRobot-2.git"
+            text="Source Code 🖤", url=f"https://github.com/Awesome-Gtash/NezukoRobot.git"
         ),
     ],
     [
@@ -157,12 +157,15 @@ buttons = [
         InlineKeyboardButton(
             text="My Master 💌", url=f"https://telegram.dog/Awesome_MB"
         ),
+       InlineKeyboardButton(
+            text="My Friend ❤️", url=f"https://telegram.dog/OrekiXProRobot"
+        ),
     ],
 ]
 
 HELP_STRINGS = """
-────「 [Prince Oreki 왕자](https://te.legra.ph/file/39b288a934734512d98e5.jpg) 」────
-Hey, your *Prince* Is here!
+────「 [Nezuko Chan](https://te.legra.ph/file/39b288a934734512d98e5.jpg) 」────
+Hey, your *Nezuko* Is here!
 I Help Admins To Manage Their Groups!
 *Main* commands available: 
 ➪ /help: PM's you this message.
