@@ -87,22 +87,22 @@ async def hmm(yes):
     on = await neko.send_file(yes.chat_id, file=file2, caption=Oreki, buttons=BUTTON)
 
     await asyncio.sleep(edit_time)
-    ok = await oreki.edit_message(yes.chat_id, on, file=file3, buttons=BUTTON)
+    ok = await neko.edit_message(yes.chat_id, on, file=file3, buttons=BUTTON)
 
     await asyncio.sleep(edit_time)
-    ok2 = await oreki.edit_message(yes.chat_id, ok, file=file4, buttons=BUTTON)
+    ok2 = await neko.edit_message(yes.chat_id, ok, file=file4, buttons=BUTTON)
 
     await asyncio.sleep(edit_time)
-    ok3 = await oreki.edit_message(yes.chat_id, ok2, file=file1, buttons=BUTTON)
+    ok3 = await neko.edit_message(yes.chat_id, ok2, file=file1, buttons=BUTTON)
 
     await asyncio.sleep(edit_time)
-    ok4 = await oreki.edit_message(yes.chat_id, ok3, file=file2, buttons=BUTTON)
+    ok4 = await neko.edit_message(yes.chat_id, ok3, file=file2, buttons=BUTTON)
 
     await asyncio.sleep(edit_time)
-    ok5 = await oreki.edit_message(yes.chat_id, ok4, file=file1, buttons=BUTTON)
+    ok5 = await neko.edit_message(yes.chat_id, ok4, file=file1, buttons=BUTTON)
 
     await asyncio.sleep(edit_time)
-    ok6 = await oreki.edit_message(yes.chat_id, ok5, file=file3, buttons=BUTTON)
+    ok6 = await neko.edit_message(yes.chat_id, ok5, file=file3, buttons=BUTTON)
 
     await asyncio.sleep(edit_time)
-    ok7 = await oreki.edit_message(yes.chat_id, ok6, file=file4, buttons=BUTTON)
+    ok7 = await neko.edit_message(yes.chat_id, ok6, file=file4, buttons=BUTTON)
