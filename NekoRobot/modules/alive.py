@@ -2,7 +2,7 @@
 BSD 2-Clause License
 Copyright (C) 2017-2019, Paul Larsen
 Copyright (C) 2022-2023, Awesome-Gtash, [ https://github.com/Awesome-Gtash]
-Copyright (c) 2022-2023, White Tiger • Network, [ https://github.com/Awesome-Gtash/OrekiRobot-2 ]
+Copyright (c) 2022-2023, White Tiger • Network, [ https://github.com/Awesome-Gtash/NezukoRobot ]
 All rights reserved.
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:
@@ -73,18 +73,18 @@ async def hmm(yes):
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
     NekoX = f"** ♡ Hola I'm {BOT_NAME}!**\n\n"
-    NekoX += f"**♡ My Uptime ~ 🖤:** `{uptime}`\n\n"
-    NekoX += f"**♡ Python-telegram-bot Version ~ 🖤 :** `{ptb}`\n\n"
-    NekoX += f"**♡ Telethon Version ~ 🖤:** `{tlhver}`\n\n"
-    NekoX += f"**♡ Pyrogram Version ~ 🖤:** `{pyrover}`\n\n"
-    NekoX += "**♡ My Master ~ 🖤 :** [Myaav Boi](https://t.me/Awesome_MB) "
+    NekoX += f"**♡ My Uptime ~ 💫 :** `{uptime}`\n\n"
+    NekoX += f"**♡ Python-telegram-bot Version ~ 💫 :** `{ptb}`\n\n"
+    NekoX += f"**♡ Telethon Version ~ 💫 :** `{tlhver}`\n\n"
+    NekoX += f"**♡ Pyrogram Version ~ 💫 :** `{pyrover}`\n\n"
+    NekoX += "**♡ My Master ~ 💫 :** [Myaav Boi](https://t.me/Awesome_MB) "
     BUTTON = [
         [
             Button.url("【► Updates ◄】", f"https://t.me/Tiger_Updates"),
             Button.url("【► Support ◄】", f"https://t.me/Tiger_SupportChat"),
         ]
     ]
-    on = await neko.send_file(yes.chat_id, file=file2, caption=Oreki, buttons=BUTTON)
+    on = await neko.send_file(yes.chat_id, file=file2, caption=Nezuko, buttons=BUTTON)
 
     await asyncio.sleep(edit_time)
     ok = await neko.edit_message(yes.chat_id, on, file=file3, buttons=BUTTON)
